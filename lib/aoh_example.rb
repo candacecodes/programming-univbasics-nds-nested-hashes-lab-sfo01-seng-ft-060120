@@ -27,7 +27,7 @@ def assembled_aoh
     assembled_aoh = [
       director_1, director_2, director_3, director_4, director_5]
     assembled_aoh 
-    ]
+    
  
 end
 
