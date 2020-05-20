@@ -9,10 +9,25 @@ BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 def assembled_aoh
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
-  assembled_aoh [
     {director_1 = {
-      
-    }}]
+      name:  "Don Gately", occupation: "Live-in Staff" }
+    }
+    director_2 = {
+      name:  "Joelle van Dyne", occupation: "Radio Personality"
+    }
+    director_3 = {
+      name:  "Pat Monteseian", occupation: "Staff"
+    }
+    director_4 = {
+      name:  "Kate Gompert", occupation: "None"
+    }
+    director_5 = {
+      name:  "Bruce Green", occupation: "Fan of Mildred"
+    }
+    assembled_aoh = [
+      director_1, director_2, director_3, director_4, director_5]
+    assembled_aoh 
+    ]
  
 end
 
